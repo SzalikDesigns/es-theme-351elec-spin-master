@@ -7,7 +7,32 @@ version         1.0
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>4</formatVersion>
-
+   <include>./_inc/icons/menuicons.xml</include>
+	<include>./_inc/menu/menu.xml</include>
+	<include subset="personagem" name="pokemon">./fundo/pokemon.xml</include>
+	<include subset="personagem" name="lego">./fundo/lego.xml</include>
+	<include subset="personagem" name="batman">./fundo/batman.xml</include>
+	<include subset="personagem" name="capitanamerica">./fundo/capitanamerica.xml</include>
+	<include subset="personagem" name="crash">./fundo/crash.xml</include>
+	<include subset="personagem" name="donkeykong">./fundo/donkeykong.xml</include>
+	<include subset="personagem" name="bowser">./fundo/bowser.xml</include>
+	<include subset="personagem" name="fatalfury">./fundo/fatalfury.xml</include>
+    <include subset="personagem" name="finalfantasy">./fundo/finalfantasy.xml</include>
+	<include subset="personagem" name="goodofwar">./fundo/goodofwar.xml</include>
+	<include subset="personagem" name="spiderman">./fundo/spiderman.xml</include>
+	<include subset="personagem" name="sonic">./fundo/sonic.xml</include>
+	<include subset="personagem" name="zelda">./fundo/zelda.xml</include>
+	<include subset="personagem" name="xmen">./fundo/xmen.xml</include>
+	<include subset="personagem" name="streetfighter">./fundo/streetfighter.xml</include>
+	<include subset="personagem" name="streetsofrage">./fundo/streetsofrage.xml</include>
+	<include subset="personagem" name="killerinstinct">./fundo/killerinstinct.xml</include>
+	<include subset="personagem" name="hulk">./fundo/hulk.xml</include>
+	<include subset="personagem" name="tekken">./fundo/tekken.xml</include>
+	<include subset="personagem" name="alvin">./fundo/alvin.xml</include>
+	<include subset="personagem" name="mortalkombat">./fundo/mortalkombat.xml</include>
+	<include subset="personagem" name="mario">./fundo/mario.xml</include>
+	<include subset="personagem" name="megaman">./fundo/megaman.xml</include>
+	<include subset="personagem" name="metalslug">./fundo/metalslug.xml</include>
 <!--
 Carousel wheel and main menu background
 -->
@@ -33,13 +58,13 @@ Carousel wheel and main menu background
          <pos>0 0</pos>
          <size>1 1</size>
          <zIndex>2</zIndex>                 
-         <path>./_inc/images/main.png</path>
+        
       </image>                    
       <text name="systemInfo">     
          <pos>0.37 0.56</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 	     <fontSize>0.02</fontSize>
          <zIndex>7</zIndex>	     
       </text>            
@@ -53,7 +78,7 @@ On Screen help
 
    <view name="system">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.02</fontSize>     
          <pos>0.02 0.95</pos>      
          <textColor>ffffff</textColor>
@@ -63,7 +88,7 @@ On Screen help
 
    <view name="detailed,video">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.017</fontSize>     
          <pos>0.02 0.962</pos>      
          <textColor>ffffff</textColor>
@@ -72,7 +97,7 @@ On Screen help
    </view> 
    <view name="basic">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.019</fontSize>     
          <pos>0.02 0.95</pos>      
          <textColor>ffffff</textColor>
@@ -89,14 +114,14 @@ System Gamelist
          <zIndex>43</zIndex>	      
 	     <selectorColor>F3E804</selectorColor>
 	     <selectorImagePath>./_inc/images/icon.png</selectorImagePath>
-	     <selectedColor>F3E804</selectedColor>
+	     <selectedColor>ffffff</selectedColor>
 	     <selectorHeight>.05</selectorHeight>      
          <pos>0.62 0.2</pos>
          <size>0.37 0.78</size>
-         <primaryColor>ffffff</primaryColor>
+         <primaryColor>000000</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+         <fontSize>0.04</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound></scrollSound>
          <alignment>left</alignment>
@@ -115,7 +140,7 @@ System View Backgrounds
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./_inc/images/main.png</path>
+         <path>./_inc/images/system_video.png</path>
          <zIndex>3</zIndex>          
       </image>
       <image name="logo">
@@ -146,7 +171,7 @@ Metadata, description, rating etc
       </text>
       <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.025</fontSize>
       </text>
       <text name="md_lbl_rating">
