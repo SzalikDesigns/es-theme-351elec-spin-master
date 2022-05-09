@@ -9,13 +9,6 @@ Built and tested on [AmberELEC](https://AmberELEC.org).
 
 ---
 
-# Base description:
-
-Theme edited and adapted by **Szalik** for rg351p/m 351ELEC community.
-
-
----
-
 # Credits
 
 based on [KirbySpin](https://github.com/RetroHursty69/es-theme-KirbySpin) by **RetroHursty69** with changes from **shantigilbert** and **drixplm**
